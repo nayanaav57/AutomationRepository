@@ -30,6 +30,7 @@ public class Elements extends Base{
 	public void radioButton() {
 		driver.navigate().to("https://demoqa.com/radio-button");
 		WebElement select= driver.findElement(By.xpath("//input[@id='yesRadio']"));
+		//WebElement select= driver.findElement(By.xpath("//label[@for='yesRadio']"));
 		select.click();	
 	}
 	@Test
@@ -39,11 +40,11 @@ public class Elements extends Base{
 		WebElement edit= driver.findElement(By.xpath("//span[@id='edit-record-2']"));
 		edit.click();
 		WebElement firstname= driver.findElement(By.xpath("//input[@id='firstName']"));
-		//firstname.clear();
+		firstname.clear();
 		firstname.sendKeys("Ganesh");
-		//WebElement lastname= driver.findElement(By.xpath("//input[@id='lastName']"));
-		//lastname.clear();
-		//lastname.sendKeys("Murthy");
+		WebElement lastname= driver.findElement(By.xpath("//input[@id='lastName']"));
+		lastname.clear();
+		lastname.sendKeys("Murthy");
 		//WebElement email= driver.findElement(By.xpath("//input[@id='userEmail']"));
 		//email.clear();
 		//email.sendKeys("ganesh@gmail.com");

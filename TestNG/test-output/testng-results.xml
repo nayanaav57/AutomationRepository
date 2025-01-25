@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-28T21:30:18 IST" name="Default suite" finished-at="2024-12-28T21:30:38 IST" duration-ms="19385">
+    <groups>
+    </groups>
+    <test started-at="2024-12-28T21:30:18 IST" name="Default test" finished-at="2024-12-28T21:30:38 IST" duration-ms="19385">
+      <class name="testscript.TestSample">
+        <test-method is-config="true" signature="initializebrowser()[pri:0, instance:testscript.TestSample@4afcd809]" started-at="2024-12-28T21:30:18 IST" name="initializebrowser" finished-at="2024-12-28T21:30:25 IST" duration-ms="6869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializebrowser -->
+        <test-method signature="display()[pri:0, instance:testscript.TestSample@4afcd809]" started-at="2024-12-28T21:30:25 IST" name="display" finished-at="2024-12-28T21:30:25 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method is-config="true" signature="initializebrowser()[pri:0, instance:testscript.TestSample@4afcd809]" started-at="2024-12-28T21:30:25 IST" name="initializebrowser" finished-at="2024-12-28T21:30:31 IST" duration-ms="6060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializebrowser -->
+        <test-method signature="print()[pri:0, instance:testscript.TestSample@4afcd809]" started-at="2024-12-28T21:30:31 IST" name="print" finished-at="2024-12-28T21:30:31 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method is-config="true" signature="initializebrowser()[pri:0, instance:testscript.TestSample@4afcd809]" started-at="2024-12-28T21:30:31 IST" name="initializebrowser" finished-at="2024-12-28T21:30:38 IST" duration-ms="6328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializebrowser -->
+        <test-method signature="show()[pri:0, instance:testscript.TestSample@4afcd809]" started-at="2024-12-28T21:30:38 IST" name="show" finished-at="2024-12-28T21:30:38 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- show -->
+      </class> <!-- testscript.TestSample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
